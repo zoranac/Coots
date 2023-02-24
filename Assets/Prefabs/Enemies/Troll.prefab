@@ -118,7 +118,7 @@ MonoBehaviour:
     CurrentCoolDown: 0
   - Skill: {fileID: 11400000, guid: f9d03172d3bd50e429d565e6ada7147c, type: 2}
     CurrentCoolDown: 0
-  Name: Troll
+  Name: Grumpy Troll
   conditionalSkills: []
   Fleeing: 0
   NotMoving: 0

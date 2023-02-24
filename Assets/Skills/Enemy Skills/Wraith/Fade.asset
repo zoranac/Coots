@@ -17,7 +17,7 @@ MonoBehaviour:
   MinValue: 0
   MaxValue: 0
   ApplyValueToSelf: 0
-  ApplyEffectsToSelf: 0
+  ApplyEffectsToSelf: 1
   isHealing: 0
   Cooldown: 6
   EffectsAppliedOnHit:

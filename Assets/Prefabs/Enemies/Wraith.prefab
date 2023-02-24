@@ -118,7 +118,7 @@ MonoBehaviour:
     CurrentCoolDown: 0
   - Skill: {fileID: 11400000, guid: c01200d4ed3c3aa4b9594ad73fce7227, type: 2}
     CurrentCoolDown: 0
-  Name: 
+  Name: Evil Wraith
   conditionalSkills: []
   Fleeing: 0
   NotMoving: 0
