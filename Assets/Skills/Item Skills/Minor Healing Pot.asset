@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f939f1f1e803844849fb23c73e2b20, type: 3}
+  m_Name: Minor Healing Pot
+  m_EditorClassIdentifier: 
+  Type: 1
+  Accuracy: 0
+  MinValue: 35
+  MaxValue: 35
+  ApplyValueToSelf: 1
+  ApplyEffectsToSelf: 0
+  isHealing: 1
+  Cooldown: 0
+  EffectsAppliedOnHit: []
+  SFX: {fileID: 8300000, guid: 0000385ada871b646968c2c425a4bee1, type: 3}
+  VFX: Heal
+  ApplyVFXToSelf: 1
+  Description: Heals a small amount. Magical.

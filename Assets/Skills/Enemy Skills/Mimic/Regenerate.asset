@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f939f1f1e803844849fb23c73e2b20, type: 3}
+  m_Name: Regenerate
+  m_EditorClassIdentifier: 
+  Type: 1
+  Accuracy: 100
+  MinValue: 15
+  MaxValue: 25
+  ApplyValueToSelf: 1
+  ApplyEffectsToSelf: 1
+  isHealing: 1
+  Cooldown: 4
+  EffectsAppliedOnHit:
+  - {fileID: 11400000, guid: 87079a39a372fb74b8ba429396b10efb, type: 2}
+  SFX: {fileID: 8300000, guid: 4d83c14510030f0438983cba12719a33, type: 3}
+  VFX: Heal
+  ApplyVFXToSelf: 1
+  Description: Heals a moderate amount each round

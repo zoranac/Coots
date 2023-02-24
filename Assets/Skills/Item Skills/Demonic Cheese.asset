@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f939f1f1e803844849fb23c73e2b20, type: 3}
+  m_Name: Demonic Cheese
+  m_EditorClassIdentifier: 
+  Type: 2
+  Accuracy: 100
+  MinValue: 10
+  MaxValue: 20
+  ApplyValueToSelf: 1
+  ApplyEffectsToSelf: 1
+  isHealing: 1
+  Cooldown: 0
+  EffectsAppliedOnHit:
+  - {fileID: 11400000, guid: 740ab07ee229b0f47a8f687f11fcb41b, type: 2}
+  SFX: {fileID: 8300000, guid: 4d83c14510030f0438983cba12719a33, type: 3}
+  VFX: Curse
+  ApplyVFXToSelf: 1
+  Description: Looks devilishly delicious

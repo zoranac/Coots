@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5890830783199749342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4394752313365753624}
+  - component: {fileID: 257885206506229186}
+  - component: {fileID: 5248311104096836617}
+  m_Layer: 0
+  m_Name: LandFish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4394752313365753624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5890830783199749342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &257885206506229186
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5890830783199749342}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 6900ad7f9d8b2f04b90c94081f9c3137, type: 3}
+  m_Color: {r: 0.3915094, g: 0.4541446, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &5248311104096836617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5890830783199749342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171613dc2d8efc24a8ad52b2101dbcc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BattleSprite: {fileID: 21300000, guid: f57269a87094af44885b44862e47a334, type: 3}
+  Speed: 85
+  Strength: 0
+  Magic: -1
+  Defense: 0
+  MaxHP: 110
+  AccuracyMod: 0
+  Dodge: -5
+  currentHP: 0
+  StatusEffects: []
+  Skills:
+  - Skill: {fileID: 11400000, guid: d91ecfc294b165148b4aa161a473a80f, type: 2}
+    CurrentCoolDown: 0
+  - Skill: {fileID: 11400000, guid: 39e3209d4b9d47a4e8020aa5fff8a4da, type: 2}
+    CurrentCoolDown: 0
+  - Skill: {fileID: 11400000, guid: f26276fbf55c60d48ad8457a9b3c4aab, type: 2}
+    CurrentCoolDown: 0
+  - Skill: {fileID: 11400000, guid: f26276fbf55c60d48ad8457a9b3c4aab, type: 2}
+    CurrentCoolDown: 0
+  Name: Land Fish
+  conditionalSkills:
+  - PreviousSkill: {fileID: 11400000, guid: f26276fbf55c60d48ad8457a9b3c4aab, type: 2}
+    SkillToUse:
+      Skill: {fileID: 11400000, guid: 0e68ebd6ce315594f8ca1fe4513daec0, type: 2}
+      CurrentCoolDown: 0
+  Fleeing: 0
+  NotMoving: 0
+  BaseSpawnWeight: 1
+  MaxSpawnWeight: 4
+  ScaleWeightWithFloor: 1
+  ExpValue: 35
+  ItemDrops:
+  - item: {fileID: 0}
+    Weight: 5
+  - item: {fileID: 11400000, guid: 89bef4b17e370b6458cbfb5717554ae8, type: 2}
+    Weight: 4
+  - item: {fileID: 11400000, guid: 982a18fc0f80bc449a9e171a2f990a76, type: 2}
+    Weight: 1
+  IsDead: 0
+  pfItemPickup: {fileID: 753199947254488246, guid: 91596c224e2a85647b4225e9416f4fa2, type: 3}

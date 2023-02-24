@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f939f1f1e803844849fb23c73e2b20, type: 3}
+  m_Name: Invoke Inner Demon
+  m_EditorClassIdentifier: 
+  Type: 2
+  Accuracy: 100
+  MinValue: 0
+  MaxValue: 0
+  ApplyValueToSelf: 0
+  ApplyEffectsToSelf: 1
+  isHealing: 0
+  Cooldown: 6
+  EffectsAppliedOnHit:
+  - {fileID: 11400000, guid: 9cbcc02b8f17bff4cbc7c255e88b2e78, type: 2}
+  SFX: {fileID: 8300000, guid: 150a14bd21b4a8b4cb1f80421ecd84bc, type: 3}
+  VFX: Demon
+  ApplyVFXToSelf: 1
+  Description: 

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f939f1f1e803844849fb23c73e2b20, type: 3}
+  m_Name: Quickstep
+  m_EditorClassIdentifier: 
+  Type: 2
+  Accuracy: 100
+  MinValue: 0
+  MaxValue: 0
+  ApplyValueToSelf: 0
+  ApplyEffectsToSelf: 1
+  isHealing: 0
+  Cooldown: 0
+  EffectsAppliedOnHit:
+  - {fileID: 11400000, guid: ac6fb6c62fd2f1246b0c65d9a2e55fb8, type: 2}
+  SFX: {fileID: 8300000, guid: 0066e4e9b24950d47ad04a5b21c86a12, type: 3}
+  VFX: Water Ripple
+  ApplyVFXToSelf: 1
+  Description: Applies Quickened

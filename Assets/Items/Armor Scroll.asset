@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240dc358c76afc443996113802e89aaa, type: 3}
+  m_Name: Armor Scroll
+  m_EditorClassIdentifier: 
+  Name: Scroll of Armor
+  Description: Casts a spell that protects you with magical armor.
+  BaseUses: 1
+  Skill: {fileID: 11400000, guid: 1448548d9ec960d4b90aa34fcf06c5fe, type: 2}
+  Icon: {fileID: 21300000, guid: 9ec5dbcd1739b2c458c5cd42b53312ac, type: 3}

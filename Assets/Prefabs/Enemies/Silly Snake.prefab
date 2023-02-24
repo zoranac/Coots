@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4261203063763424604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4261203063763424593}
+  - component: {fileID: 4261203063763424594}
+  - component: {fileID: 4261203063763424595}
+  m_Layer: 0
+  m_Name: Silly Snake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4261203063763424593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261203063763424604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4261203063763424594
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261203063763424604}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: e9e0229ff6e658a4b8c7d5f76e67425f, type: 3}
+  m_Color: {r: 0.60945123, g: 0.8679245, b: 0.35617658, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4261203063763424595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261203063763424604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171613dc2d8efc24a8ad52b2101dbcc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BattleSprite: {fileID: 21300000, guid: a722b4d353b2573468c1958f99069bef, type: 3}
+  Speed: 120
+  Strength: 2
+  Magic: 2
+  Defense: -3
+  MaxHP: 90
+  AccuracyMod: 0
+  Dodge: 10
+  currentHP: 0
+  StatusEffects: []
+  Skills:
+  - Skill: {fileID: 11400000, guid: 7cffb5b7fb52cfb41ac60606c06526e3, type: 2}
+    CurrentCoolDown: 0
+  - Skill: {fileID: 11400000, guid: 50bc45935cf52044a898db63c9e32d44, type: 2}
+    CurrentCoolDown: 0
+  - Skill: {fileID: 11400000, guid: eca6f2da1c01b004381723481d3b6c6d, type: 2}
+    CurrentCoolDown: 0
+  - Skill: {fileID: 11400000, guid: 4d475ac3276ae4b4d962ef81f843df8d, type: 2}
+    CurrentCoolDown: 0
+  Name: Silly Snake
+  conditionalSkills: []
+  Fleeing: 1
+  NotMoving: 0
+  BaseSpawnWeight: 0
+  MaxSpawnWeight: 3
+  ScaleWeightWithFloor: 1
+  ExpValue: 45
+  ItemDrops:
+  - item: {fileID: 0}
+    Weight: 2
+  - item: {fileID: 11400000, guid: d135da2e27d427449a337bea29af587d, type: 2}
+    Weight: 1
+  IsDead: 0
+  pfItemPickup: {fileID: 753199947254488246, guid: 91596c224e2a85647b4225e9416f4fa2, type: 3}
