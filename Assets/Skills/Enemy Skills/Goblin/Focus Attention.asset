@@ -24,5 +24,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7ad5b4f5ad8a4e145a7fdf7fa77d8f4d, type: 2}
   SFX: {fileID: 8300000, guid: e6b22315f01551f44bcd6a2710664af6, type: 3}
   VFX: Shine
-  ApplyVFXToSelf: 0
+  ApplyVFXToSelf: 1
   Description: 
