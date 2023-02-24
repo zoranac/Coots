@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f939f1f1e803844849fb23c73e2b20, type: 3}
+  m_Name: Flail
+  m_EditorClassIdentifier: 
+  Type: 0
+  Accuracy: 60
+  MinValue: 5
+  MaxValue: 20
+  ApplyValueToSelf: 0
+  ApplyEffectsToSelf: 0
+  isHealing: 0
+  Cooldown: 0
+  EffectsAppliedOnHit: []
+  SFX: {fileID: 8300000, guid: 61e393170c32c2a43930039df5f1ebf4, type: 3}
+  VFX: Stomp
+  ApplyVFXToSelf: 0
+  Description: 

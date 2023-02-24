@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BattleSprite: {fileID: 21300000, guid: 888e600e68c170e4bbae785ecb65bc72, type: 3}
-  Speed: 145
+  Speed: 140
   Strength: -2
   Magic: -2
   Defense: -2

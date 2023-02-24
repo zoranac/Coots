@@ -9,6 +9,12 @@ public class ExpSkill : Skill
         if (user is Player)
         {
             (user as Player).Exp += MaxValue;
+
+            if (SFX == null)
+                Debug.LogWarning(name + " does not have an SFX");
+            else
+                Camera.main.GetComponent<SoundManager>().PlayAudio(SFX);
+
             return Result.Hit;
         }
 

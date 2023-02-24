@@ -1644,9 +1644,10 @@ MonoBehaviour:
   EnemyPrefabs:
   - {fileID: 5890830783199749342, guid: d8fe7d9bb4ac2ab41999c9047db8173b, type: 3}
   - {fileID: 4046122996764275134, guid: 1b8ff681f63ca5e41a9eaa7285ae70ad, type: 3}
+  - {fileID: 7049162376711690845, guid: 330ebc8110578c24bb3088429132bd01, type: 3}
+  - {fileID: 2261225236581450060, guid: d42ee9f885e28224ab54e9106d3dc8cc, type: 3}
   - {fileID: 4261203063763424604, guid: ef7597bf6f71a9a42a64bce0af5522e6, type: 3}
   - {fileID: 4078212693859857550, guid: a8fca1057596ec04c9799a6751a038bb, type: 3}
-  - {fileID: 2261225236581450060, guid: d42ee9f885e28224ab54e9106d3dc8cc, type: 3}
   - {fileID: 2038560890842515227, guid: f08356eb0cf915c42a253b13fdcd222f, type: 3}
   - {fileID: 951991448268004416, guid: d993f78325c381b4398321d6e0bf467c, type: 3}
   enemies: []

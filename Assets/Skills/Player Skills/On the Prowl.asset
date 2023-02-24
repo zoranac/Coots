@@ -25,4 +25,4 @@ MonoBehaviour:
   SFX: {fileID: 8300000, guid: e6b22315f01551f44bcd6a2710664af6, type: 3}
   VFX: Shine
   ApplyVFXToSelf: 1
-  Description: Reduces target's ACC and DEF
+  Description: Reduces target's DOD, DEF, and ACC

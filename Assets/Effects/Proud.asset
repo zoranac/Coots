@@ -18,7 +18,7 @@ MonoBehaviour:
   GenericValue: 0
   StatValues:
   - Stat: 0
-    Value: 5
+    Value: 7
   - Stat: 5
     Value: 25
   - Stat: 4

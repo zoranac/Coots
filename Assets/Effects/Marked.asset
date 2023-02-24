@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: Marked
   m_EditorClassIdentifier: 
   Name: Marked
-  Description: Reduced ACC and DEF
-  Duration: 3
+  Description: Reduced DOD, DEF, and ACC
+  Duration: 4
   GenericValue: 0
   StatValues:
-  - Stat: 3
-    Value: -10
+  - Stat: 4
+    Value: -20
   - Stat: 2
     Value: -5
+  - Stat: 3
+    Value: -10
   Icon: {fileID: 21300000, guid: 2dbbd1c0fed20714f98d116b1a8a4a7f, type: 3}
   color: {r: 0.17875579, g: 0.28859568, b: 0.3679245, a: 1}

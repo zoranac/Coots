@@ -102,7 +102,7 @@ MonoBehaviour:
   Strength: 1
   Magic: 0
   Defense: -5
-  MaxHP: 70
+  MaxHP: 75
   AccuracyMod: 0
   Dodge: 20
   currentHP: 0
